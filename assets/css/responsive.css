@@ -1,0 +1,67 @@
+/* mobile */
+@media (max-width: 740px){
+    .s-col-full{
+        width: 100%;
+    }
+
+    .header{
+        overflow: hidden;
+    }
+    .header .nav{
+        display: block;
+    }
+    .header .subnav{
+        position:initial; /* reset position mặc định */
+        background-color: #333;
+    }
+    .subnav li a{
+        color: white;
+        margin-left: 46px;
+    }
+    .header .nav-find {
+        display: none;
+    }    
+    .header .mobile-menu-btn{
+        display: block;
+    }
+    .nav > li {
+        display: block;
+    }
+    .nav > li:first-child{
+        display: inline-block;
+    }
+    /* phần mobile content */
+    .content .memberitems{
+        width: 100%;
+        text-align: center;
+    }
+    .content .membername{
+        margin: 20px 0;
+    }
+    .content .memberimg{
+        width: 60%;
+        border-radius: 5px;
+        margin-bottom: 16px;
+    }
+    /* phần pod content */
+    .content .podlist{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    #Contact .mobile-input-contact{
+        width: 100%;
+        margin-top: 12px;
+    }
+    #Contact .form-submit-btn{
+        width: 100%;
+        -webkit-appearance: none;
+    }
+
+
+}
+
+/* pc */
+@media (min-width: 1024px) {
+   
+}
+/* tablet */
